@@ -55,18 +55,18 @@ int main() {
                 scanf("%f", &amount);
                 deposit(amount);
                 break;
-//             case 3:
-//                 printf("\nEnter amount to withdraw: $");
-//                 scanf("%f", &amount);
-//                 withdraw(amount);
-//                 break;
-//             case 4:
-//                 printf("\nThank you for using our banking system. Goodbye!\n");
-//                 return 0;
-//             default:
-//                 printf("\nInvalid choice! Please try again.\n");
-//         }
-//     }
+            case 3:
+                printf("\nEnter amount to withdraw: $");
+                scanf("%f", &amount);
+                withdraw(amount);
+                break;
+            case 4:
+                printf("\nThank you for using our banking system. Goodbye!\n");
+                return 0;
+            default:
+                printf("\nInvalid choice! Please try again.\n");
+        }
+    }
 
     return 0;
 }
