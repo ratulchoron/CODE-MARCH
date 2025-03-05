@@ -19,22 +19,22 @@ void deposit(float amount) {
     checkBalance(); // Show updated balance
 }
 
-// // Function to withdraw money
-// void withdraw(float amount) {
-//     if (amount > 0 && amount <= balance) {
-//         balance -= amount;
-//         printf("Successfully withdrawn $%.2f\n", amount);
-//     } else if (amount > balance) {
-//         printf("Insufficient balance!\n");
-//     } else {
-//         printf("Invalid withdrawal amount!\n");
-//     }
-//     checkBalance(); // Show updated balance
-// }
+// Function to withdraw money
+void withdraw(float amount) {
+    if (amount > 0 && amount <= balance) {
+        balance -= amount;
+        printf("Successfully withdrawn $%.2f\n", amount);
+    } else if (amount > balance) {
+        printf("Insufficient balance!\n");
+    } else {
+        printf("Invalid withdrawal amount!\n");
+    }
+    checkBalance(); // Show updated balance
+}
 
-// int main() {
-//     int choice;
-//     float amount;
+int main() {
+    int choice;
+    float amount;
 
 //     while (1) {
 //         // Display menu options
