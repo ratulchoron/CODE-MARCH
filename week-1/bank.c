@@ -36,25 +36,25 @@ int main() {
     int choice;
     float amount;
 
-//     while (1) {
-//         // Display menu options
-//         printf("\n===== Banking System Menu =====\n");
-//         printf("1. Check Balance\n");
-//         printf("2. Deposit Money\n");
-//         printf("3. Withdraw Money\n");
-//         printf("4. Exit\n");
-//         printf("Choose an option: ");
-//         scanf("%d", &choice);
+    while (1) {
+        // Display menu options
+        printf("\n===== Banking System Menu =====\n");
+        printf("1. Check Balance\n");
+        printf("2. Deposit Money\n");
+        printf("3. Withdraw Money\n");
+        printf("4. Exit\n");
+        printf("Choose an option: ");
+        scanf("%d", &choice);
 
-//         switch (choice) {
-//             case 1:
-//                 checkBalance();
-//                 break;
-//             case 2:
-//                 printf("\nEnter amount to deposit: $");
-//                 scanf("%f", &amount);
-//                 deposit(amount);
-//                 break;
+        switch (choice) {
+            case 1:
+                checkBalance();
+                break;
+            case 2:
+                printf("\nEnter amount to deposit: $");
+                scanf("%f", &amount);
+                deposit(amount);
+                break;
 //             case 3:
 //                 printf("\nEnter amount to withdraw: $");
 //                 scanf("%f", &amount);
