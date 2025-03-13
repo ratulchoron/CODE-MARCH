@@ -59,7 +59,7 @@ int main() {
                 printf("\nEnter amount to withdraw: $");
                 scanf("%f", &amount);
                 withdraw(amount);
-                break;
+                break; 
             case 4:
                 printf("\nThank you for using our banking system. Goodbye!\n");
                 return 0;
